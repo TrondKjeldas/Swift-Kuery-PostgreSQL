@@ -1,12 +1,12 @@
 /**
  Copyright IBM Corporation 2017
- 
+
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
- 
+
  http://www.apache.org/licenses/LICENSE-2.0
- 
+
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -34,14 +34,16 @@ enum PostgreSQLType: UInt32 {
     case varchar = 1043
     case json = 114
     case xml = 142
-    
+
+    case textarray = 1009
+
     case numeric = 1700
-    
+
     case date = 1082
     case time = 1083
     case timetz = 1266
     case timestamp = 1114
     case timestamptz = 1184
-    
+
     case uuid = 2950
 }
